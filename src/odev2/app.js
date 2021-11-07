@@ -20,7 +20,8 @@ function asalSayiTespit(...sayi){
 
         if(sonuc==true){
             console.log(sayi[i] + " " + "asal sayı")
-        }else{
+        }
+        else{
             console.log(sayi[i] + " " + "asal sayı değil")
         }
     }
