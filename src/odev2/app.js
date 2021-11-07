@@ -1,4 +1,4 @@
-/*---1--- if Kullanımı ve Asal mı Değil mi ?
+/*---1--- if Kullanımı ve Asal mı Değil mi ? */
 
 function asalSayiTespit(...sayi){
 
@@ -7,7 +7,7 @@ function asalSayiTespit(...sayi){
         let sonuc = true;
 
         if(sayi[i] <= 0){
-            console.log(sayi[i] + " " +"pozitif sayı değil")
+            console.log(sayi[i] + " " +"asal sayı değil")
             continue;
         }
 
@@ -27,9 +27,9 @@ function asalSayiTespit(...sayi){
     }
 }
 asalSayiTespit(-6,0,1,2,3,4,5,6,77,99,101)
-*/
+console.log("-----------------------------")
 
-/*---2--- Arkadaş Sayılar
+/*---2--- Arkadaş Sayılar */
 
 function arkadasSayilar(sayi1,sayi2){
     let toplam1 = 0;
@@ -59,9 +59,10 @@ function arkadasSayilar(sayi1,sayi2){
 }
 
 arkadasSayilar(220,284)
-*/
+console.log("-----------------------------")
 
-/*---3--- Mükemmel Sayılar
+/*---3--- Mükemmel Sayılar */
+
 function mukemmelSayilar(sayi){
     let toplam = 0;
 
@@ -77,10 +78,12 @@ function mukemmelSayilar(sayi){
         toplam=0       
     }
 }
-mukemmelSayilar(1000)
-*/
 
-/*---4--- Asal Sayılar
+mukemmelSayilar(1000)
+console.log("-----------------------------")
+
+/*---4--- Asal Sayılar */
+
 function asalSayilar(sayi){
 
     for (let i = 1; i < sayi; i++) {
@@ -100,4 +103,3 @@ function asalSayilar(sayi){
 }
 
 asalSayilar(1000)
-*/
